@@ -18,7 +18,7 @@ if __name__ == '__main__':
 	P1 = PlanetSystem(screen,curr_planets=0,max_planets=10,dt=TIME_DELAY,screen_width=sw/2,screen_height=sh,offset=0,script="3",variation=0.0001)
 	P2 = PlanetSystem(screen,curr_planets=0,max_planets=10,dt=TIME_DELAY,screen_width=sw/2,screen_height=sh,offset=sw/2,script="3",variation=0.0002)
 
-	loop = Trueg
+	loop = True
 	while loop:
 		for event in pygame.event.get():
 			if event.type == pygame.QUIT or pygame.key.get_pressed()[pygame.K_ESCAPE]:
