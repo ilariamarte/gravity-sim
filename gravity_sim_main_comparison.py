@@ -11,6 +11,7 @@ if __name__ == '__main__':
 	sw,sh = 1000,400
 	TIME_DELAY = 0.008
 	pygame.init()
+	pygame.display.set_caption("Gravity Sim Comparison")
 	screen = pygame.display.set_mode((sw,sh))
 	clock = pygame.time.Clock()
 
